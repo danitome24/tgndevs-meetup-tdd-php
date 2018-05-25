@@ -1,0 +1,25 @@
+{
+    "name": "dtome/tgndevs-meetup-tdd-php",
+    "description": "TDD kata from TgnDevs given by Jordi Anguela in Php",
+    "type": "project",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Daniel Tome Fernandez",
+            "email": "danieltomefer@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tdd\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tdd\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    }
+}
