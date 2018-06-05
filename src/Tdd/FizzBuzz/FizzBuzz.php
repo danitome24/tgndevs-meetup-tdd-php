@@ -1,12 +1,12 @@
 <?php
 
-namespace Tdd;
+namespace Tdd\FizzBuzz;
 
-use Tdd\Spec\Multiple;
-use Tdd\Writer\WriteBuzz;
-use Tdd\Writer\WriteFizz;
-use Tdd\Writer\WriteFizzBuzz;
-use Tdd\Writer\WriteNumber;
+use Tdd\FizzBuzz\Spec\Multiple;
+use Tdd\FizzBuzz\Writer\WriteBuzz;
+use Tdd\FizzBuzz\Writer\WriteFizz;
+use Tdd\FizzBuzz\Writer\WriteFizzBuzz;
+use Tdd\FizzBuzz\Writer\WriteNumber;
 
 class FizzBuzz
 {

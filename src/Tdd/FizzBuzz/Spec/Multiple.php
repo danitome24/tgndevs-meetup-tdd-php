@@ -6,7 +6,7 @@
  */
 declare(strict_types=1);
 
-namespace Tdd\Spec;
+namespace Tdd\FizzBuzz\Spec;
 
 class Multiple implements MultipleSpecification
 {

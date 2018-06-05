@@ -3,7 +3,7 @@
 namespace Tdd\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Tdd\FizzBuzz;
+use Tdd\FizzBuzz\FizzBuzz;
 
 class FizzBuzzTest extends TestCase
 {

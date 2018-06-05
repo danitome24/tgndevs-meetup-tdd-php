@@ -6,13 +6,13 @@
  */
 declare(strict_types=1);
 
-namespace Tdd\Writer;
+namespace Tdd\FizzBuzz\Writer;
 
-class WriteFizzBuzz implements Writer
+class WriteFizz implements Writer
 {
 
     public function write(): string
     {
-        return 'FizzBuzz';
+        return 'Fizz';
     }
 }

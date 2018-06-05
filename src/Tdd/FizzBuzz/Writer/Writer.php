@@ -5,7 +5,7 @@
  * GitHub: danitome24
  */
 
-namespace Tdd\Writer;
+namespace Tdd\FizzBuzz\Writer;
 
 interface Writer
 {

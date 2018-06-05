@@ -6,13 +6,9 @@
  */
 declare(strict_types=1);
 
-namespace Tdd\Writer;
+namespace Tdd\FizzBuzz\Spec;
 
-class WriteBuzz implements Writer
+interface MultipleSpecification
 {
-
-    public function write(): string
-    {
-        return 'Buzz';
-    }
+    public function isSatisfiedBy($number, $by): bool;
 }
